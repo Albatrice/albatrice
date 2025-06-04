@@ -7,6 +7,7 @@ mod input;
 pub use input::{Input, input};
 pub mod split;
 pub use split::Split;
+pub mod datetime.rs
 
 pub mod prelude {
     pub use crate::{
@@ -77,7 +78,7 @@ macro_rules! assert_pattern_ne {
     };
 }
 /// A macro which will only run code
-/// when the crate is not compiled
+/// when the crate is not compiledthat a
 /// with '--release'
 ///
 /// It can be used with a block:
