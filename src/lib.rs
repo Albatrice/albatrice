@@ -7,7 +7,7 @@ mod input;
 pub use input::{Input, input};
 pub mod split;
 pub use split::Split;
-pub mod datetime.rs
+pub mod datetime;
 
 pub mod prelude {
     pub use crate::{
